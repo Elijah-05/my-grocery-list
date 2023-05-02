@@ -1,0 +1,41 @@
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 5px;
+    background-color: rgb(244, 244, 244);
+    min-height: 50px;
+    padding: 0 10px;
+}
+
+.item-name {
+    width: 60%;
+}
+
+.list-desc {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-item button {
+    border: 1px solid var(--primaryColor);
+    padding: 8px 14px;
+    border-radius: 5px;
+}
+
+#trush {
+    display: flex;
+    color: rgb(252, 41, 41);
+    font-size: 1rem;
+}
+
+.list-item button:hover {
+    background-color: rgb(252, 41, 41);
+    border-color: white;
+}
+
+.list-item button:hover #trush {
+    color: white
+}

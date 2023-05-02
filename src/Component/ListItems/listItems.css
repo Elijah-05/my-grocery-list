@@ -1,0 +1,5 @@
+.list-item-screen {
+    height: calc(100vh - 395px);
+    background-color: rgb(223, 223, 223);
+    overflow-y: scroll;
+}

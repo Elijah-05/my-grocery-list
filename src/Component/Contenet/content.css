@@ -1,0 +1,7 @@
+.main-content {
+    max-width: 600px;
+    margin: 0 auto;
+    height: calc(100vh - 152px);
+    border: 2px solid var(--primaryColor);
+}
+

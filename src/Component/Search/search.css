@@ -1,0 +1,24 @@
+.search-container {
+    border: 1px solid gray;
+    /* max-width: 300px; */
+    margin: 5px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    background-color: white;
+}
+
+#search-input {
+    border: none;
+    min-height: 50px;
+    width: 100%;
+    text-indent: 10px;
+    border-radius: 14px;
+    outline: none;
+}
+
+.search-icon {
+    color: var(--primaryColor);
+    font-size: 1.3rem;
+    margin-right: 10px;
+}

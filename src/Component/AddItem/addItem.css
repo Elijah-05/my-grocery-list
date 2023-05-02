@@ -1,0 +1,63 @@
+.add-item-section {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.add-item-section .head {
+    color: var(--primaryColor)
+}
+
+.add-item-form {
+    padding: 5px 10px;
+}
+
+input {
+    min-height: 40px;
+    border: 1px solid var(--primaryColor);
+    text-indent: 10px;
+    border-radius: 5px;
+    outline-color: var(--primaryColor);
+}
+
+input[type='text'] {
+    display: block;
+    width: 100%;
+}
+
+input[type='number']:first-of-type {
+    min-width: 40%;
+}
+
+input[type='number']:last-of-type {
+    min-width: 30%;
+    margin: 0 8px;
+}
+
+.price-add {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.add {
+    min-height: 40px;
+    padding: 0 20px;
+    border: 1px solid var(--primaryColor);
+    border-radius: 5px;
+}
+
+.add-icon {
+    display: flex;
+    font-size: 1.3rem;
+    color: var(--primaryColor);
+}
+
+.add:hover {
+    background-color: var(--primaryColor);
+}
+
+.add:hover .add-icon {
+    color: white
+}

@@ -1,0 +1,25 @@
+.description-bar {
+    background-color: #82d5d6;
+    width: 100%;
+}
+
+.description-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.item-name {
+    width: 50%;
+}
+
+.qty-price {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 15px; */
+}
